@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    tools:context="smartdth.murali.com.smartdth.RegisterActivity">
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="10dp"
+                android:focusableInTouchMode="true"
+                android:imeOptions="actionUnspecified"
+                android:layout_marginTop="10dp"
+                android:hint="Enter Email Id"
+                android:textColorHint="@color/colorAccent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/regemailId" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:hint="Enter Password"
+                android:focusableInTouchMode="true"
+                android:imeOptions="actionUnspecified"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorAccent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/regpassWord" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="25dp"
+            android:drawableRight="@drawable/back"
+            android:textAllCaps="false"
+            android:id="@+id/register"
+            style="?android:textAppearanceSmall"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Register"
+            android:background="@drawable/button_bg"
+            android:textColor="#ffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/regRegister"
+            android:text="Already Registered Click Here !"/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+</LinearLayout>

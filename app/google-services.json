@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "177503495989",
+    "firebase_url": "https://smartdth-3c945.firebaseio.com",
+    "project_id": "smartdth-3c945",
+    "storage_bucket": "smartdth-3c945.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177503495989:android:c6ae9dfdc2a78316",
+        "android_client_info": {
+          "package_name": "smartdth.murali.com.smartdth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177503495989-2agvod5qgtvvaql0r860gglnu7j8b2ks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtuvCCpyBC0ykSYMV1RStdnvLl6dWpyNk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
